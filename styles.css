@@ -1,0 +1,66 @@
+/* add your CSS here */
+body, html {
+    height: 100%;
+}
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "serif ";
+}
+
+.shape {
+    padding:15px;
+    width:360px;
+    height:auto;
+    position:relative;
+}
+
+.containerBig {
+    border: 1px solid lightgray;
+    width:330px;
+    height:auto;
+    padding: 15px;
+    position:relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px lightgray;
+}
+
+.photoContainer {
+    width:300px;
+    height:250px;
+    border: 15px;
+    margin-bottom:15px;
+    background-image:url(dolphin.jpg);
+    background-size:cover;
+    background-position: 0px -35px;
+    border-radius: 10px;
+}
+
+.containerSmall {
+    width:300px;
+    outline: 1px solid lightgray;
+    padding: 0px;
+}
+
+.containerSmall, p , li {
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+.containerSmall, p ,ul {
+    padding:8px;
+}
+
+h3 {
+    padding: 5px 0px 15px 0px;
+    font-size: 1.8em;
+    color:darkblue;
+}
+
+span {
+    font-weight:bold;
+    color:darkblue;
+}
